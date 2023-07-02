@@ -41,7 +41,7 @@ collections:
           # - { label: Site Email, name: siteemail, widget: string, required: false }
   - name: 'blog'
     label: 'Blog'
-    folder: 'content/blog'
+    folder: 'content/articles'
     create: true
     format: 'frontmatter'
     slug: '{{fields.createdAt}}-{{slug}}'
