@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 devDependencies:
   '@nuxt-themes/alpine':
-    specifier: ^1.6.0
-    version: 1.6.0(postcss@8.4.24)(rollup@3.26.0)(vue@3.3.4)
+    specifier: ^1.6.1
+    version: 1.6.1(postcss@8.4.24)(rollup@3.26.0)(vue@3.3.4)
   '@nuxt/devtools':
     specifier: ^0.5.5
     version: 0.5.5(nuxt@3.6.1)(rollup@3.26.0)(vite@4.3.9)
@@ -1038,14 +1038,14 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxt-themes/alpine@1.6.0(postcss@8.4.24)(rollup@3.26.0)(vue@3.3.4):
-    resolution: {integrity: sha512-exvHbPPARvRG21k3wdtso3Lq6MoPtSaByqL5HEr/4SJVIUM+QPsaRjsPienvutD+wuJD8ZX95KYZ4QOJfsDZ8Q==}
+  /@nuxt-themes/alpine@1.6.1(postcss@8.4.24)(rollup@3.26.0)(vue@3.3.4):
+    resolution: {integrity: sha512-nyMTmEXazYRR6A5FIutHYlxAUBDjhm6EfPHU9adX2FnRNqMM0awYANf2HmW4cfXXxYjU2Da1WGMder8j0x8qQw==}
     dependencies:
       '@nuxt-themes/elements': 0.9.4(postcss@8.4.24)(rollup@3.26.0)(vue@3.3.4)
       '@nuxt-themes/tokens': 1.9.1(postcss@8.4.24)(rollup@3.26.0)(vue@3.3.4)
       '@nuxt-themes/typography': 0.11.0(postcss@8.4.24)(rollup@3.26.0)(vue@3.3.4)
       '@nuxt/content': 2.7.0(rollup@3.26.0)
-      '@nuxthq/studio': 0.12.1(rollup@3.26.0)
+      '@nuxthq/studio': 0.13.2(rollup@3.26.0)
       '@vueuse/core': 10.2.1(vue@3.3.4)
       ufo: 1.1.2
     transitivePeerDependencies:
@@ -1408,8 +1408,8 @@ packages:
       - vue-tsc
     dev: true
 
-  /@nuxthq/studio@0.12.1(rollup@3.26.0):
-    resolution: {integrity: sha512-g9GV8JkQqqYLtP+gsNtPr4fh49jc3eIdAB2ZfiudZKkFdW0BxtT/xPx8RjNYQwyInKssDDB26zzYrRYH9hhHCQ==}
+  /@nuxthq/studio@0.13.2(rollup@3.26.0):
+    resolution: {integrity: sha512-lSjMDSq0yxX3I3O8EVJWoU+kA9iEwUuTS1sZfyha625FhiU2qDIGGkc7gEeA1ubBNeZmJMXTl2hIauxOVTSfgQ==}
     dependencies:
       '@nuxt/kit': 3.6.1(rollup@3.26.0)
       defu: 6.1.2
