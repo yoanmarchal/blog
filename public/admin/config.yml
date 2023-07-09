@@ -45,8 +45,9 @@ collections:
     create: true
     format: 'frontmatter'
     slug: '{{fields.createdAt}}-{{slug}}'
-    # editor:
-    #   preview: true
+    preview_path: articles/{{slug}}
+    editor:
+      preview: true
     fields:
       - { label: 'Created Date', name: 'createdAt', widget: 'datetime', format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
       - { label: 'Title', name: 'title', widget: 'string', required: true }
