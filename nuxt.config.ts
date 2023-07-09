@@ -12,6 +12,7 @@ export default defineNuxtConfig({
   // https://github.com/nuxt-themes/alpine
   extends: '@nuxt-themes/alpine',
   modules: [
+    '@vite-pwa/nuxt',
     // https://github.com/nuxt-modules/plausible
     '@nuxtjs/plausible',
     '@nuxthq/studio',
