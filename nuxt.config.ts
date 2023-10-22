@@ -9,14 +9,13 @@ export default defineNuxtConfig({
       '/**': { isr: true }
     }
   },
+  devtools: { enabled: true },
   // https://github.com/nuxt-themes/alpine
   extends: '@nuxt-themes/alpine',
   modules: [
     '@vite-pwa/nuxt',
     // https://github.com/nuxt-modules/plausible
     '@nuxtjs/plausible',
-    '@nuxthq/studio',
-    // https://github.com/nuxt/devtools
-    '@nuxt/devtools'
+    '@nuxthq/studio'
   ]
 })
