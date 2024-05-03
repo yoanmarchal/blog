@@ -16,7 +16,7 @@
     "@nuxtjs/plausible": "^0.2.3",
     "@types/node": "^20.8.7",
     "@vite-pwa/nuxt": "^0.1.1",
-    "eslint": "^8.52.0",
+    "eslint": "^9.2.0",
     "nuxt": "^3.8.0",
     "@nuxt/devtools": "^1.0.0"
   }
