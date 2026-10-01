@@ -18,6 +18,6 @@
     "@vite-pwa/nuxt": "^0.1.1",
     "eslint": "^8.52.0",
     "nuxt": "^3.8.0",
-    "@nuxt/devtools": "^1.0.0"
+    "@nuxt/devtools": "^3.4.2"
   }
 }
